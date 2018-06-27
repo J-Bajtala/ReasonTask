@@ -13,25 +13,33 @@ nav {
  .button-icon{
     background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
  }
- .img-hero{
-     max-width: 100%;
-     max-height: 100%;
- }
+
  .container-image{
      position: relative;
  }
+ 
+.img-hero-two{
+     position: absolute;
+     right:0;
+     -webkit-clip-path: polygon(70% 0, 100% 0%, 100% 86%, 30% 87%);
+     clip-path: polygon(70% 0, 100% 0%, 100% 86%, 30% 87%);
+     top:0;
+}
+@media (max-width: 1180px){
+    .img-hero-two{
+        position: absolute;
+        right:0;
+        -webkit-clip-path: polygon(70% 0, 100% 0%, 100% 84%, 30% 84%);
+        clip-path: polygon(70% 0, 100% 0%, 100% 84%, 30% 84%);
+        
+        top:0;
+   }
+}
  .container-text{
      position: absolute;
      top: 40%;
      
      color: white;
-     /* font-size: 3em;
-     width: 100%; */
-     /* display: flex;
-     justify-content: center;
-     align-items: center;
-     border: 1px solid green;
-     */
  }
  .container-res{
      
@@ -40,75 +48,39 @@ nav {
      position: absolute;
      top: 70%;
  }
- 
-/* .con2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-} */
-/* .img-cracow{
-    position: absolute;
-} */
-/* .container-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-/* .row-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .col-6, .col-12{
-    border: 1px solid rgba(190, 188, 188, 0.5);
-    padding: 50px;
-    /* text-align: center; */
-
-
-    
- /* .con2 h1 {
-     color: white;
-     text-align: center;
-     margin: 0;
-     
- } */
-
- .clock{
+ .icon-clock{
      width: 30px;
      height: 30px;
  }
- .phone{
+ .icon-phone{
      width: 30px;
      height: 50px;
  }
- .check{
+ .icon-check{
      width:30px;
      height: 30px;
  }
- .bus{
+ .icon-bus{
      width:30px;
      height: 30px;
  }
- .water{
+ .icon-water{
      width: 30px;
      height: 40px;
  }
- .ticket{
+ .icon-ticket{
      width: 50px;
      height: 30px;
  }
- .credit-card{
+ .icon-credit-card{
      height: 30px;
      width: 40px;
  }
- .wifi{
+ .icon-wifi{
      height: 30px;
      width: 40px;
  }
- .calendar{
+ .icon-calendar{
      height: 30px;
      width: 40px;
  }
