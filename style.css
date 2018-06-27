@@ -35,6 +35,16 @@ nav {
         top:0;
    }
 }
+@media (min-width: 1180px){
+    .img-hero-two{
+        position: absolute;
+        right:0;
+        -webkit-clip-path: polygon(70% 0, 100% 0%, 100% 87%, 30% 87%);
+        clip-path: polygon(70% 0, 100% 0%, 100% 87%, 30% 87%);
+        
+        top:0;
+   }
+}
  .container-text{
      position: absolute;
      top: 40%;
