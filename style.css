@@ -13,6 +13,10 @@ nav {
  .button-icon{
     background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
  }
+ .img-hero{
+     max-width: 100%;
+     max-height: 100%;
+ }
  .container-image{
      position: relative;
  }
