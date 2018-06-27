@@ -37,15 +37,15 @@ nav {
         top:0;
    }
 } */
-@media (min-width: 1920px){
+@media (min-width: 1520px){
     .img-hero-two{
         position: absolute;
         right:0;
         -webkit-clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0 100%);
         clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0 100%);
-        
-        
         top:0;
+        max-height: 100%;
+        max-width: 100%;
    }
 }
  .container-text{
