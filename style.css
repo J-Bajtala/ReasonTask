@@ -44,8 +44,8 @@ nav {
     .img-hero-two{
         position: absolute;
         right:0;
-        -webkit-clip-path: polygon(52% 0, 100% 0%, 100% 100%, 0% 100%);
-        clip-path: polygon(52% 0, 100% 0%, 100% 100%, 0% 100%);        
+        -webkit-clip-path: polygon(34% 0, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(34% 0, 100% 0%, 100% 100%, 0% 100%);               
         top:0;
         max-height: 100%;
         max-width: 100%;
